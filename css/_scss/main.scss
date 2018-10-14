@@ -1,0 +1,76 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+
+// Your Google font here
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700|Titillium+Web');
+
+// Your CSS/SCSS below this line
+
+h5 {
+  font-family: $Montserrat;
+  color: $primary-color;
+  text-align: center;
+}
+
+body {
+  background-color: $secondary-color;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: $Titillium;
+}
+
+.card {
+        border: none;
+        color: $primary-color;
+        background-color: $secondary-color;
+}
+
+.ui-widget-content {
+        border: none;
+        font-family: $Titillium;
+        background-color: $tertiary-color;
+}
+
+.ui-widget-header {
+        border: none;
+        font-family: $Montserrat;
+        background-color: $tertiary-color;
+}
+
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+}
+
+#tabs li{
+  background-color: $quaternary-color;
+  border: none;
+}
+
+#tabs a{
+    font-family: $Montserrat;
+    color: $secondary-color;
+}
+
+#tabs {
+
+  border: none;
+  font-family: $Titillium;
+  text-align: justify;
+}
+
+div.card {
+color: $primary-color;
+}
+
+div > p {
+  color: $primary-color;
+}
+
+div > a {
+  color:$quaternary-color;
+}

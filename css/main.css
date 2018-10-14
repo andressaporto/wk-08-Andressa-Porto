@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700|Titillium+Web");
+
+h5 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.card {
+  border: none;
+  color: white;
+  background-color: lightblue;
+}
+
+.ui-widget-content {
+  border: none;
+  font-family: "Titillium Web", sans-serif;
+  background-color: transparent;
+}
+
+.ui-widget-header {
+  border: none;
+  font-family: "Montserrat Subrayada", sans-serif;
+  background-color: transparent;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+#tabs li {
+  background-color: purple;
+  border: none;
+}
+
+#tabs a {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: lightblue;
+}
+
+#tabs {
+  border: none;
+  font-family: "Titillium Web", sans-serif;
+  text-align: justify;
+}
+
+div.card {
+  color: white;
+}
+
+div > p {
+  color: white;
+}
+
+div > a {
+  color: purple;
+}
